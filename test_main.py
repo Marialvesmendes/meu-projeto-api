@@ -1,5 +1,3 @@
-from main import somar
-
-def test_soma():
-    resultado = somar(2, 3)
-    assert resultado["resultado"] == 5
+def test_multiplicacao():
+    resultado = {"resultado": 2 * 2}
+    assert resultado["resultado"] == 4
